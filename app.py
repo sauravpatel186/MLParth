@@ -12,7 +12,7 @@ def main():
     
     st.markdown(html_temp,unsafe_allow_html=True)
     
-    model = joblib.load('model_joblib')
+    model = joblib.load('house_joblib')
     
     p1 = st.slider('Avg. Area Income',17000,200000)
     
